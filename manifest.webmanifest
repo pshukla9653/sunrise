@@ -1,0 +1,22 @@
+{
+	"name" : "Aquaent",
+	"short_name" : "Aquaent",
+	"start_url" : ".",
+	"display" : "standalone",
+	"background_color" : "#fff",
+	"description" : "Aquaent",
+	"icons" : [
+			{
+				"src" : "logo_big.png",
+				"sizes" : "400x400",
+				"type" : "image/png"
+			
+			},
+			{
+				"src" : "logo_s.png",
+				"sizes" : "150x150",
+				"type" : "image/png"
+			
+			}
+			]
+	}
