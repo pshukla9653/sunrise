@@ -770,7 +770,7 @@ new PNotify({title: 'Success!',
     var form = $(this);
     var url = form.attr('action');
 	
-	var reminder_data = $('#reminder_date').val();
+	var reminder_data = $('#wreminder_date').val();
 	var reminder_description = $('#reminder_description').val();
 	var lead_id = $('#showdataid').val();
 	var btn = $('#reminder_btn').val();
@@ -781,7 +781,7 @@ new PNotify({title: 'Success!',
 		var reminder_id = $('#reminder_id').val();
 		var vdata = 'reminder_data='+reminder_data+'&reminder_description='+reminder_description+'&lead_id='+lead_id+'&id='+reminder_id+'&btn='+btn;
 	}
-	if(reminder_data ==''){
+  if(reminder_data ==''){
 		new PNotify({
             title: 'Error!',
             text: 'Please Select Reminder Date',
@@ -1065,7 +1065,7 @@ new PNotify({title: 'Success!',
 	}
 	
 	function addreminder(id){
-							$('#reminder_date').val('');
+							$('#wreminder_date').val('');
 						   $('#reminder_id').val('');
 						   $('#reminder_description').val('');
 						   $('#reminder_btn').val('Submit');
