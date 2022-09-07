@@ -47,12 +47,12 @@ $(function() {
 
     // leads AJAX sourced data
     $('.datatable-leads').dataTable({
-        ajax: 'http://localhost/sunriseaqua/secure/leads/leadlist'
+        ajax: 'http://localhost/sunrise/secure/leads/leadlist'
     });
 	
 	// leads AJAX sourced data
     $('.datatable-cutomerlist').dataTable({
-        ajax: 'http://localhost/sunriseaqua/secure/customer/customerlist'
+        ajax: 'http://localhost/sunrise/secure/customer/customerlist'
     });
 
 
