@@ -35,15 +35,6 @@ class Customer_model extends CI_Model
         return $this->db->delete($table, $where);
     }
 	
-	 public function get_autocomplete($search_data)
-	 {
-			$this->db->select('customer_name, id');
-			$this->db->like('customer_name', $search_data);
-			$this->db->where('branch_id', $this->session->userdata('branch_id'));
-			$this->db->where('company_id', $this->session->userdata('company_id'));
-			return $this->db->get('tbl_customer')->result();
-
-	 } 
 	 function get_customer_details($id)
     {
         

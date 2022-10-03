@@ -15,7 +15,7 @@
 							<li class="active"><a href="<?=base_url($this->uri->segment(2));?>"><?=ucfirst($this->uri->segment(2));?></a></li>
 						</ul>
 
-						
+						0
 					</div>
 				</div>
 				<!-- /page header -->

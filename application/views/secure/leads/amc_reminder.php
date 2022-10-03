@@ -29,7 +29,7 @@
       <div class="panel-body">
         <div class="row">
           <?php if ($this->session->userdata('group_id') <= 4) {  ?>
-            <form action="<?= base_url('secure/leads/gettodaymslist'); ?>" method="post">
+            <form action="<?= base_url('secure/leads/gettodayamclist'); ?>" method="post">
             <div class="col-md-12">
                 <div class="col-md-3">
                   <div class="form-group">
